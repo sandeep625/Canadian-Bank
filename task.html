@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Canadian Bank</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./css/gcb.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="./js/cbtask.js"></script>
+        
+    </head>
+
+    <body>
+    <div id="bodymain">
+        <header>
+            <a href="index.html"><h1><span class="ared">Canadian</span> Bank</h1></a>
+        </header>
+        <div>
+        <input type="button" class="divbtn" value="logout" id="logout" onclick="logout()"/>
+        </div>
+        <div id="navdemo"></div>
+         <nav class="nav navbar navbar-expand-lg navbar-light bg-light">
+            <ul>
+                <li><a href="index.html">Bank Accounts</a></li>
+                <li><a href="apply.html">Apply Now</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Task List</h2> 
+    <div id="tasks">
+        <label for="task_list">Task List</label><br>
+        <textarea id="task_list" rows="6" cols="50" disabled></textarea>
+    </div>
+    
+    <label for="task">Task</label><br>
+    <input type="text" name="task" id="task"><br>
+
+    <input type="button" class="divbtn" name="add_task" id="add_task" value="Add Task"><br>
+    <input type="button" class="divbtn" name="clear_tasks" id="clear_tasks" value="Clear Tasks">
+        </main> 
+
+        <footer>
+        <br>
+         <table id="contactfoot1">
+                <tr>
+                    <td>Savings Account</td>
+                    <td>Credit Cards</td>
+                    <td>Loans</td>
+                </tr>
+            </table>
+        <br>
+        <table id="contactfoot">
+            <tr><td><a href="mailto:enqiries@canadianbank.com">Email Us</a></td><td>
+                <span id="mobile"><a href="tel:1234567890">Phone</a></span>
+                <span id="desktop"><a href="tel:1234567890">Phone:1234567890</a></span>
+                </td><td><a href="contactus.html">Leave your details</a></td></tr>
+        </table>
+        <div id="socialfoot">
+           <span id="follow">Follow us on:</span>
+            <a href="https://www.facebook.com/"><img class="socialicon" src="./images/fb.png"></a>&nbsp;&nbsp;
+            <a href="https://www.twitter.com/"><img class="socialicon" src="./images/twitter.png"></a>&nbsp;&nbsp;
+            <a href="https:/www.instagram.com/"><img class="socialicon" src="./images/insta.jpg"></a>&nbsp;&nbsp;
+        </div>
+       <p>Copyright &copy; by Canadian Bank Limited, 2018</p> 
+        </footer>
+        </div>
+        
+    </body>
+</html>s

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Canadian Bank</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./css/gcb.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <script src="./js/cbclock.js"></script> 
+        <link href="./css/lightbox%20main.css" rel="stylesheet">
+    <link href="./css/lightbox.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="./js/lightbox.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+            var url = "http://api.flickr.com/services/feeds/photos_public.gne?" + "format=json&jsoncallback=?&tags=bankbuilding";
+            $.getJSON(url, function(data){
+                var images="";
+                var i;
+                $.each(data.items, function (i, items){
+                   images += " <a href=" + items.media.m + " data-lightbox=abc> <img src=" + items.media.m + "/></a> "; 
+                });
+                $("#new_building").html(images);
+            });
+	    		  		  
+    	});
+    </script>
+        
+
+        
+    </head>
+
+    <body>
+    <div id="bodymain">
+        <header>
+            <a href="index.html"><h1><span class="ared">Canadian</span> Bank</h1></a>
+        </header>
+        <div id="navdemo"></div>
+            <nav class="nav navbar navbar-expand-lg navbar-light bg-light">
+            <ul>
+                <li><a href="index.html">Bank Accounts</a></li>
+                <li><a href="apply.html">Apply Now</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div id="clock">
+            <span id="date">&nbsp;</span>
+            <span id="hours">&nbsp;</span>:
+            <span id="minutes">&nbsp;</span>:
+            <span id="seconds">&nbsp;</span>&nbsp;
+            <span id="ampm">&nbsp;</span>
+        </div>
+        <main>
+        <h2>We are the financial experts whom you can trust</h2>
+        
+        <dl>
+            <dt>What makes us<span class="ared"> unique</span>?</dt>
+            <dd>
+                <ul>
+                    <li>Recognizing special needs of Canadian farms and agri-businesses</li>
+                    <li>Specially designed products and services</li>
+                    <li>Commitment to our customers' futures, including succession planning for the next generation
+                        Highest degree of flexibility</li>
+                </ul>
+            </dd>
+            
+        </dl>
+              <div id="new_building"></div>
+        </main>
+        <footer>
+        <br>
+        <table id="contactfoot1">
+            <tr><td>Savings Account</td><td>Credit Cards</td><td>Loans</td></tr>
+        </table> 
+        <br>
+        <table id="contactfoot">
+            <tr><td><a href="mailto:enqiries@greatcanadabank.com">Email Us</a></td><td>
+                <span id="mobile"><a href="tel:1234567890">Phone</a></span>
+                <span id="desktop"><a href="tel:1234567890">Phone:1234567890</a></span>
+                </td><td><a href="contactus.html">Leave your details</a></td></tr>
+        </table>
+        <div id="socialfoot">
+           <span id="follow">Follow us on:</span>
+            <a href="https://www.facebook.com/"><img class="socialicon" src="./images/fb.png"></a>&nbsp;&nbsp;
+            <a href="https://www.twitter.com/"><img class="socialicon" src="./images/twitter.png"></a>&nbsp;&nbsp;
+            <a href="https:/www.instagram.com/"><img class="socialicon" src="./images/insta.jpg"></a>&nbsp;&nbsp;
+        </div>
+       <p>Copyright &copy; by Canadian Bank Limited, 2018</p> 
+        </footer>
+        </div>
+        
+    </body>
+</html>

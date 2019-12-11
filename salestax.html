@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Canadian Bank</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/gcb.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <script src="./js/cb.js"></script>
+
+</head>
+
+<body>
+    <div id="bodymain">
+        <header>
+            <a href="index.html">
+                <h1><span class="ared">Canadian</span> Bank</h1>
+            </a>
+        </header>
+
+        <div id="navdemo"></div>
+        <nav class="nav navbar navbar-expand-lg navbar-light bg-light">
+            <ul>
+                <li><a href="index.html">Bank Accounts</a></li>
+                <li><a href="apply.html">Apply Now</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div id="clock">
+            <span id="date">&nbsp;</span>
+            <span id="hours">&nbsp;</span>:
+            <span id="minutes">&nbsp;</span>:
+            <span id="seconds">&nbsp;</span>&nbsp;
+            <span id="ampm">&nbsp;</span>
+        </div>
+        <div>
+            <input type="button" class="divbtn" value="logout" id="logout" onclick="logout()" />
+        </div>
+        <main>
+            <h2>Sales Tax Calculator</h2>
+
+            <label for="subtotal">Subtotal:</label>
+            <input type="text" id="subtotal"><br>
+
+            <label for="tax_rate">Tax Rate:</label>
+            <input type="text" id="tax_rate"><br>
+
+            <label for="sales_tax">Sales Tax:</label>
+            <input type="text" id="sales_tax" disabled><br>
+
+            <label for="total">Total:</label>
+            <input type="text" id="total" disabled><br>
+
+            <label>&nbsp;</label>
+            <input type="button" id="calculate" value="Calculate">
+            <input type="button" id="clear" value="Clear"><br>
+        </main>
+
+        <footer>
+            <br>
+            <table id="contactfoot1">
+                <tr>
+                    <td>Savings Account</td>
+                    <td>Credit Cards</td>
+                    <td>Loans</td>
+                </tr>
+            </table>
+            <br>
+            <table id="contactfoot">
+                <tr>
+                    <td><a href="mailto:enqiries@canadianbank.com">Email Us</a></td>
+                    <td>
+                        <span id="mobile"><a href="tel:1234567890">Phone</a></span>
+                        <span id="desktop"><a href="tel:1234567890">Phone:1234567890</a></span>
+                    </td>
+                    <td><a href="contactus.html">Leave your details</a></td>
+                </tr>
+            </table>
+            <div id="socialfoot">
+                <span id="follow">Follow us on:</span>
+                <a href="https://www.facebook.com/"><img class="socialicon" src="./images/fb.png"></a>&nbsp;&nbsp;
+                <a href="https://www.twitter.com/"><img class="socialicon" src="./images/twitter.png"></a>&nbsp;&nbsp;
+                <a href="https:/www.instagram.com/"><img class="socialicon" src="./images/insta.jpg"></a>&nbsp;&nbsp;
+            </div>
+            <p>Copyright &copy; by Canadian Bank Limited, 2018</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>

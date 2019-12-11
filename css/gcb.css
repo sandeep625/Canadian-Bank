@@ -1,0 +1,426 @@
+#bodyindex{
+    background-image: url(../images/background.jpg);
+    background-size: auto;
+    width: 100%;
+    font-family: calibri;
+    background-repeat: no-repeat;
+}
+
+
+body{
+    background-image:url(../images/background.jpg);
+    background-size:cover;
+    font-family: calibri;
+    
+}
+
+#bodymain{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    display: inline;
+}
+#logout{
+    
+}
+#enter{
+    display: flex;
+    width:80%;
+    flex-direction: column;
+    flex-wrap: column wrap;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.enter1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: row wrap;
+    justify-content: center;
+}
+#great{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: row wrap;
+    font-size: 20px;
+    color:white;
+    font-family: Goudy Stout;
+}
+
+#canada{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    color:red;
+    font-family: Goudy Stout;
+}
+
+.ared{
+   color:red; 
+}
+
+.awhite{
+    color:white;
+}
+
+#bank{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    color:white;
+    font-family: Goudy Stout;
+}
+
+#quote{
+    color:white;
+}
+
+#enter a{
+    text-decoration: none;
+}
+
+
+
+#caption{
+    display: inline-block;
+    color: rgba(255,255,255,0.2);
+    font-size: 75px;
+    font-family: Broadway;
+    text-align: center;
+}
+
+#bankingbtn:hover{
+    background-color:rgba(40, 210, 74, 0.6);
+}
+
+#terms{
+    font-size: 15px;
+    color:white;
+}
+
+
+header{
+    text-align: center;
+    font-family: Goudy Stout;
+    color:white;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+
+nav{
+    font-family: calibri; 
+    display: block;
+    background-color: black;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: flex;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid white;
+}
+
+nav li a:hover {
+    background-color: white;
+    color:rgba(25, 83, 159, 1);
+}
+
+dd ul{
+        display: block;
+        
+    }
+
+h2{
+    display: block;
+    margin-top:85px;
+    color:white;
+    font-size: 2em;
+}
+
+main p,label{
+    color:white;
+    font-size: 25px;
+}
+
+#contact{
+    border:none;
+    margin-bottom: 15px;
+    color:white;
+    background-color: blue;
+    padding:12px;
+    border-radius: 5px;
+    font-size: 15px;
+    width:200px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#signin{
+    border:none;
+    margin-bottom: 15px;
+    color:white;
+    background-color: blue;
+    padding:12px;
+    border-radius: 5px;
+    font-size: 15px;
+    width:200px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#home{
+    display: block;
+    text-align: center;
+}
+
+#home tr,#home td{
+    padding: 55px;
+    border:1px solid white;
+}
+
+#home td{
+    color:white;
+    
+}
+
+
+#savings1,#savings2,#savings3{
+    display: flex;
+    flex-wrap: row wrap;
+    border:1px solid white;
+    width:250px;
+    padding: 55px;
+    margin: 15px;
+}
+
+.divsave{
+    color:white;
+    font-size: 30px;
+}
+
+.divpara{
+    color:white;
+    font-size: 15px;
+}
+
+.divbtn{
+    border:none;
+    color:white;
+    background-color: blue;
+    padding:5px;
+    margin:10px;
+    border-radius: 5px;
+    font-size: 12px;
+    width:100px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#socialfoot{
+    color:white;
+    font-size: 40px;
+}
+
+.socialicon{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+
+
+#contactfoot td a{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+    padding: 8px;
+}
+
+#mobile{
+    display: none;
+}
+
+
+#contactfoot td {
+    padding:5px;
+    margin-bottom: 15px;
+}
+
+#contactfoot1 td a:hover, #contactfoot td a:hover{
+    background-color: white;
+    color:rgba(25, 83, 159, 1);
+}
+
+
+#contactfoot1 td a{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+    padding:15px;
+}
+
+#contactfoot1 td {
+    padding: 5px;
+}
+
+
+#contactform{
+    color: white;
+    padding:5px;
+}
+
+
+
+#contactform,#contactform1,#contactform2,#contactform3,#contactform4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: row wrap;
+    justify-content: center;
+    color: white;
+    padding:15px;
+}
+
+
+#contactform td{
+    padding: 10px;
+
+}
+
+
+
+
+#captioncontact{
+    display: inline-block;
+    margin-left: 150px;
+    
+}
+
+
+.textbox{
+    display: flex;
+    flex-wrap: wrap;
+    border:none;
+    width:250px;
+    height:30px;
+    border-radius: 5px;
+}
+
+.commentbox{
+    display: flex;
+    flex-wrap: wrap;
+    border:none;
+    width:245px;
+    border-radius: 5px;
+}
+
+#subtotal,#tax_rate,#total,#sales_tax,#income{
+   display: flex;
+    flex-wrap: wrap;
+    border:none;
+    width:250px;
+    height:30px;
+    border-radius: 5px;
+}
+
+#calculate,#clear,#calculateinc{
+    border:none;
+    color:white;
+    background-color: blue;
+    padding:5px;
+    border-radius: 5px;
+    font-size: 12px;
+    width:20%;
+    text-align: center;
+    height:25px;
+    font-weight: bold;   
+    cursor: pointer;
+}
+
+#submit,#login,#signup{
+    border:none;
+    color:white;
+    background-color: blue;
+    padding:5px;
+    border-radius: 5px;
+    font-size: 12px;
+    width:100%;
+    text-align: center;
+    height:35px;
+    font-weight: bold;   
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: rgba(229,0,0,1);
+}
+
+#mainsavings{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:row wrap;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+dt{
+    color:white;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+dl{
+    color:white;
+    font-size: 20px;
+}
+
+#cc th,#cc td,#cc tr,#cc1 th,#cc1 td,#cc1 tr{
+    border:1px solid white;
+    padding: 10px;
+    color:white;
+    
+}
+
+#cc td,#cc tr, #cc1 td,#cc1 tr{
+    border-collapse: collapse;
+}
+
+#cc td:hover, #cc1 td:hover{
+    background-color: rgba(255,255,255,0.4);
+}
+
+footer p{
+    color:white;
+}
+
+
+#clock{
+    float: right;
+    color:white;
+    font-family: Goudy Stout;
+}
